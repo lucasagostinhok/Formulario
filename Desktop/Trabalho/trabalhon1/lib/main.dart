@@ -7,7 +7,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   TextEditingController controller5 = new TextEditingController();
-  TextEditingController controllerDia = new TextEditingController();
+  TextEditingController controller7 = new TextEditingController();
   TextEditingController controller1 = new TextEditingController();
   TextEditingController controller2 = new TextEditingController();
   TextEditingController controller4 = new TextEditingController();
@@ -213,7 +213,7 @@ class MyApp extends StatelessWidget {
                           suggestionBackgroundColor:
                               Color.fromRGBO(218, 151, 47, 1),
                           suggestionTextStyle: TextStyle(color: Colors.black),
-                          controller: controllerDia,
+                          controller: controller7,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
