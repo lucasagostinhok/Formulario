@@ -6,12 +6,12 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  TextEditingController controllerMes = new TextEditingController();
+  TextEditingController controller5 = new TextEditingController();
   TextEditingController controllerDia = new TextEditingController();
-  TextEditingController controllerNome = new TextEditingController();
-  TextEditingController controllerIdade = new TextEditingController();
-  TextEditingController controllerEmpregado = new TextEditingController();
-  TextEditingController controllerSexo = new TextEditingController();
+  TextEditingController controller1 = new TextEditingController();
+  TextEditingController controller2 = new TextEditingController();
+  TextEditingController controller4 = new TextEditingController();
+  TextEditingController controller3 = new TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                         child: EasyAutocomplete(
                           suggestions: [],
                           cursorColor: Color.fromRGBO(218, 151, 47, 1),
-                          controller: controllerNome,
+                          controller: controller1,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
@@ -91,7 +91,7 @@ class MyApp extends StatelessWidget {
                         child: EasyAutocomplete(
                           suggestions: [],
                           cursorColor: Color.fromRGBO(218, 151, 47, 1),
-                          controller: controllerIdade,
+                          controller: controller2,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
@@ -131,7 +131,7 @@ class MyApp extends StatelessWidget {
                           suggestionBackgroundColor:
                               Color.fromRGBO(218, 151, 47, 1),
                           suggestionTextStyle: TextStyle(color: Colors.black),
-                          controller: controllerSexo,
+                          controller: controller3,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
@@ -172,7 +172,7 @@ class MyApp extends StatelessWidget {
                           suggestionBackgroundColor:
                               Color.fromRGBO(218, 151, 47, 1),
                           suggestionTextStyle: TextStyle(color: Colors.black),
-                          controller: controllerEmpregado,
+                          controller: controller4,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
@@ -253,7 +253,7 @@ class MyApp extends StatelessWidget {
                           suggestionBackgroundColor:
                               Color.fromRGBO(218, 151, 47, 1),
                           suggestionTextStyle: TextStyle(color: Colors.black),
-                          controller: controllerMes,
+                          controller: controller5,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
