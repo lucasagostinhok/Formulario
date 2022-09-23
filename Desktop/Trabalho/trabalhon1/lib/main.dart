@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Formulário',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
             scaffoldBackgroundColor: Color.fromARGB(255, 0, 0, 0),
             textTheme: Theme.of(context).textTheme.apply(
